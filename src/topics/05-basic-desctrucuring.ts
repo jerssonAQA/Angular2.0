@@ -21,15 +21,24 @@ const audioPlayer:AudioPlayer={
 }
 
 const song = 'New Song';
-const { song:anotherSong, songDuration:duration, audioVolume:volumen }= audioPlayer;
-const {author, year}=audioPlayer.details;
 
-// console.log('Song: ',audioPlayer.song);
-console.log('Song: ',anotherSong);
-// console.log('Duration: ',audioPlayer.songDuration);
-console.log('Duration: ',duration);
-console.log('VolumenSong: ',volumen);
-// console.log('Author: ',audioPlayer.details.author);
-console.log('Year: ',year);
-console.log('Author: ',author);
-export{}
+//const { song:anotherSong, songDuration:duration, audioVolume:volumen }= audioPlayer;
+//const {author, year}=audioPlayer.details;
+
+// // console.log('Song: ',audioPlayer.song);
+// console.log('Song: ',anotherSong);
+// // console.log('Duration: ',audioPlayer.songDuration);
+// console.log('Duration: ',duration);
+// console.log('VolumenSong: ',volumen);
+// // console.log('Author: ',audioPlayer.details.author);
+// console.log('Year: ',year);
+// console.log('Author: ',author);
+
+//const dbz:string[]= ['Goku','Vegeta','Trunk'];
+//const trunks = dbz[3] || 'no hay personaje;'
+const [,,trunks ='not found']:string[] =['Goku','Vegeta',];
+
+console.error('Personaje 3:', trunks);
+
+
+export{};
